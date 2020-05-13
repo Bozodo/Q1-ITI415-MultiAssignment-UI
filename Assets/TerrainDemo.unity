@@ -317,7 +317,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press Escape to return to Menu
+  m_Text: Press F1 to return to menu
 --- !u!222 &257571780
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -905,7 +905,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 60.843555
+      value: 62.28
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -963,6 +963,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 522d05df077ecdb43881913e1efe91a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MSController:
+    XSensitivity: 2
+    YSensitivity: 2
+    clampVerticalRotation: 1
+    MinimumX: -90
+    MaximumX: 90
+    smooth: 0
+    smoothTime: 5
+    lockCursor: 1
 --- !u!1001 &1618340761
 PrefabInstance:
   m_ObjectHideFlags: 0
