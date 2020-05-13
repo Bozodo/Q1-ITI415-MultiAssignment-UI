@@ -20,10 +20,6 @@ public class FPS_exiter : MonoBehaviour
             MSController.SetCursorLock(false);
             ReturnToMainScene();
         }
-        if (Input.GetKeyDown(KeyCode.F2))
-        {
-            Destroy(this.gameObject);
-        }
     }
 
     public void ReturnToMainScene()
