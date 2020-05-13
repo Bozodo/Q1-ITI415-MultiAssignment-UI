@@ -15,7 +15,7 @@ public class FPS_exiter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F1))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             MSController.SetCursorLock(false);
             ReturnToMainScene();
